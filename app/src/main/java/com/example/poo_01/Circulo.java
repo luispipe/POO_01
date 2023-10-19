@@ -7,8 +7,9 @@ public class Circulo {
 
     //Metodos o los comportamientos del objeto
 
-    //Metodo constructor-> es el que construye arma el objeto
+    //Metodo constructor-> es el que construye el objeto
     public Circulo(String color, double radio){
+        //utilizamos la palabra reservada this para referirnos al objeto
         this.color=color;
         this.radio=radio;
     }
