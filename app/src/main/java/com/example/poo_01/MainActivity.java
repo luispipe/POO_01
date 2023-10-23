@@ -11,19 +11,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Creamo un objeto
-        /*
-        * Un objeto es la instancia de una clase
-        * */
+        //Una clase abstracta no permite crear objetos
 
-        Circulo circuloVerde= new Circulo("Verde",2);
-
-        System.out.println(circuloVerde.area());
-        System.out.println(circuloVerde.perimetro());
-        circuloVerde.pintar();
-        System.out.println(circuloVerde.getColor());
-        circuloVerde.setColor("Verde Oscuro");
-        System.out.println(circuloVerde.getColor());
+        Circulo circulo1= new Circulo("Verde",4);
+        circulo1.saludar();
 
     }
 }
